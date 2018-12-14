@@ -67,7 +67,7 @@
                     <v-icon small>fas fa-link</v-icon>
                     <!-- <span class="ml-2 underline">Product page</span> -->
                   </a>
-                  <span class="price-range">{{ product.priceRange }}</span>
+                  <span>{{product.priceRange}}</span>$
                 </div>
               </v-layout>
             </li>
