@@ -1,5 +1,5 @@
 module.exports = {
-  baseUrl: 'OfficeChef',
+  baseUrl: '/OfficeChef/',
   runtimeCompiler: false,
   productionSourceMap: false,
   parallel: true,
