@@ -6,11 +6,11 @@
     >Home</router-link>
     <h1
       class="mb-4"
-    >Kitchen equipments</h1>
+    >Kitchen equipment</h1>
     <!-- The component starts here -->
     <v-text-field
       v-model="search"
-      label="Search in equipments"
+      label="Search in equipment"
       class="mb-4"
     />
 
@@ -83,7 +83,7 @@
 </template>
 
 <script>
-import products from '@/data/equipments'
+import products from '@/data/equipment'
 
 export default {
   name: 'Equipment',
