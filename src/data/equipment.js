@@ -184,7 +184,7 @@ export default [
     categories: [4]
   },
   {
-    name: 'Potato express',
+    name: 'Potato Express',
     priceRange: '$',
     link: undefined,
     notes: undefined,
