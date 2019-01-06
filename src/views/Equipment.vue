@@ -40,7 +40,7 @@
           <v-divider />
 
           <ul
-            class="px-3 py-"
+            class="px-3 py-1"
           >
             <li
               v-for="(product, index) in category.products"
@@ -143,6 +143,7 @@ export default {
   .item {
     width: 350px;
     margin: 10px;
+    max-width: 100%;
     transition: none !important;
   }
 
@@ -152,5 +153,20 @@ export default {
 
   .underline {
     text-decoration: underline;
+  }
+
+  // Disable masonry layout on mobile
+  @media only screen and (max-width: 770px) {
+    .products-grid {
+      display: block;
+    }
+
+    .item {
+      min-width: 0;
+      margin-left: 0;
+      margin-right: 0;
+      transform: none !important;
+      position: static !important;
+    }
   }
 </style>
